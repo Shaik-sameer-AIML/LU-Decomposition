@@ -8,10 +8,10 @@ To write a program to find the LU Decomposition of a matrix.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Start the program.
+2. Input the values.
+3. Diaplay the program.
+4. Stop the program.
 
 ## Program:
 ```
@@ -38,9 +38,47 @@ print(L)
 print(U)
 
 ## Output:
-![lu decomposition]()
+![output](https://github.com/Shaik-sameer-AIML/LU-Decomposition/blob/main/lu%20decomp%201.JPG?raw=true)
 
 
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
 
+## Algorithm
+1. Start the program.
+2. Input the values.
+3. Display the program.
+4. Stop the program.
+
+## Program:
+```
+/*
+Program to find the LU Decomposition of a matrix.
+Developed by: sameer.s
+RegisterNumber: 21003881
+*/
+```
+# To print X matrix (solution to the equations)
+
+import numpy as np
+
+import numpy as np
+
+from scipy.linalg import lu_factor, lu_solve
+
+A=(eval(input()))
+
+B=(eval(input()))
+
+lu,piv=lu_factor(A)
+
+X=lu_solve((lu, piv), B)
+
+print(X)
+
+
+# OUTPUT:
+![output](https://github.com/Shaik-sameer-AIML/LU-Decomposition/blob/main/lu%20decomp%202.JPG?raw=true)
+
+# Result:
+Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
