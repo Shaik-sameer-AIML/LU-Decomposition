@@ -14,13 +14,11 @@ To write a program to find the LU Decomposition of a matrix.
 4. Stop the program.
 
 ## Program:
-```
-/*
+~~~
 Program to find the LU Decomposition of a matrix.
 Developed by: sameer.s
 RegisterNumber: 21003881
-*/
-```
+
 # To print L and U matrix
 import numpy as np
 
@@ -36,7 +34,7 @@ P,L,U = lu(A)
 print(L)
 
 print(U)
-
+~~~
 ## Output:
 ![output](https://github.com/Shaik-sameer-AIML/LU-Decomposition/blob/main/lu%20decomp%201.JPG?raw=true)
 
@@ -51,13 +49,12 @@ Thus the program to find the LU Decomposition of a matrix is written and verifie
 4. Stop the program.
 
 ## Program:
-```
-/*
+~~~
+
 Program to find the LU Decomposition of a matrix.
 Developed by: sameer.s
 RegisterNumber: 21003881
-*/
-```
+
 # To print X matrix (solution to the equations)
 
 import numpy as np
@@ -76,7 +73,7 @@ X=lu_solve((lu, piv), B)
 
 print(X)
 
-
+~~~
 # OUTPUT:
 ![output](https://github.com/Shaik-sameer-AIML/LU-Decomposition/blob/main/lu%20decomp%202.JPG?raw=true)
 
